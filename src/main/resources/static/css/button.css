@@ -1,0 +1,24 @@
+.cta-btn
+{
+    text-decoration: none;
+    border: solid 1.5px #009FB8;
+    border-radius: 7px;
+    color: #ded9d9;
+    font-weight: 500!important;
+    font-size: 21px;
+    padding: 5px 15px;
+    background-color: #009FB8; !important;
+}
+
+.btn btn-primary
+{
+
+    text-decoration: none;
+    border: solid 1.5px #009FB8;
+    border-radius: 7px;
+    color: #ded9d9;
+    padding: 5px 1px;
+    background-color: #009FB8; !important;
+
+}
+

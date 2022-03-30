@@ -1,0 +1,111 @@
+@import "reset.css";
+@import "button.css";
+
+/* set body bg-color to remove whitespace*/
+body {
+  background-color: #272727;
+}
+
+.card {
+  background-color: #272727;
+  color: #eff1f3;
+}
+
+.container {
+  background-color: #272727;
+  color: #eff1f3;
+}
+
+/* Set images to same dimensions */
+.card > img {
+  height: auto;
+  max-height: 200px;
+  width: auto;
+}
+
+
+/* button*/
+.btn btn-primary
+
+{
+background: #009FB8;
+}
+
+
+ .prod-banner
+     {
+       background-image: url("/abtImages/PIC3.jpg");
+       background-color: #cccccc; /* Used if the image is unavailable */
+       height: 500px; /* You must set a specified height */
+       background-position: center; /* Center the image */
+       background-repeat: no-repeat; /* Do not repeat the image */
+       margin-bottom: 30px;
+     }
+
+   .product-banner-text
+     {
+         text-align: center;
+         position: absolute;
+         top: 35%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         color: white;
+         padding: 10px 30px;
+         background-color: #272727;
+         opacity: 0.7;
+     }
+
+
+
+     /*CSS FOR LOGIN PAGE */
+     .login-banner
+         {
+           background-image: url("/abtImages/PIC2.jpg");
+           background-color: #cccccc; /* Used if the image is unavailable */
+           height: 500px; /* You must set a specified height */
+           background-position: center; /* Center the image */
+           background-repeat: no-repeat; /* Do not repeat the image */
+           margin-bottom: 5%;
+         }
+
+       .li-banner-text
+         {
+             text-align: center;
+             position: absolute;
+             top: 35%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+             color: white;
+             padding: 10px 30px;
+             background-color: #272727;
+             opacity: 0.7;
+         }
+
+
+
+     .login
+         {
+           background-color: #696969;
+           color: black;
+           padding: 40px 30px 30px 30px;
+           border-radius: 10px;
+           margin: 0 auto;
+           width: 350px;
+           justify-content: center;
+
+         }
+
+
+.form-floating
+{
+    padding: 5px;
+}
+
+.sub
+{
+ padding-bottom: 5px;
+}
+
+
+
+  /* END OF CSS FOR LOGIN PAGE */
